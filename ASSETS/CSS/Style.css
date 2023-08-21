@@ -1,0 +1,21 @@
+*{
+    --Primary-color:rgb(255, 0, 0);
+    --grey-transparent:rgb(97, 97, 97);
+    --white:rgb(255, 255, 255);
+    --black:rgb(0, 0, 0);
+}
+.second-image .row .col-12 img{
+    width: 100%;
+}
+.container-fluid img{
+    width: 120px;
+}
+.list-group-item{
+    border: 0;
+}
+.Main-content .Card-section{
+    border: 0;
+}
+.card {
+    border:0;
+}

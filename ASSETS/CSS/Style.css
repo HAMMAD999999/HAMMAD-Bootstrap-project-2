@@ -101,3 +101,6 @@
     text-decoration: none;
     font-size: medium;
 }
+.second-image img{
+  width: 100%;
+}

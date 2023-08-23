@@ -104,3 +104,30 @@
 .second-image img{
   width: 100%;
 }
+.dropdown-menu{
+  width:900px;
+  background-color:#e6e6e6;
+}
+.dropdown-menu li{
+  display: flex;
+}
+.dropdown-menu li ul{
+  list-style-type: none;
+}
+.dropdown-menu li ul li{
+  margin: 15px 0;
+}
+.dropdown-menu li ul li a{
+  font-size:11px;
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width:991.98px) {
+  .dropdown-menu li{
+    display:block;
+  }
+  .dropdown-menu{
+    width:300px ;
+    border: 0;
+  }
+}

@@ -93,8 +93,11 @@
     width: 130px;
 }
 
-.card{
+.card {
     border: 0;
+}
+.card a{
+  text-decoration: none;
 }
 .social-media-icons a{
     color:black;

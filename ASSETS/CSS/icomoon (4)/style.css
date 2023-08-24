@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?szm62t');
-  src:  url('fonts/icomoon.eot?szm62t#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?szm62t') format('truetype'),
-    url('fonts/icomoon.woff?szm62t') format('woff'),
-    url('fonts/icomoon.svg?szm62t#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?ueuf59');
+  src:  url('fonts/icomoon.eot?ueuf59#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?ueuf59') format('truetype'),
+    url('fonts/icomoon.woff?ueuf59') format('woff'),
+    url('fonts/icomoon.svg?ueuf59#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
   font-display: block;
@@ -25,6 +25,15 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-world:before {
+  content: "\e904";
+}
+.icon-people_alt:before {
+  content: "\e905";
+}
+.icon-people_outline:before {
+  content: "\e903";
+}
 .icon-fork-and-knife:before {
   content: "\e900";
 }
@@ -75,7 +84,4 @@
 }
 .icon-linkedin2:before {
   content: "\eaca";
-}
-.icon-pie-chart1:before {
-  content: "\e901";
 }

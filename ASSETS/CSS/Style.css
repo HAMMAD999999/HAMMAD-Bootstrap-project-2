@@ -104,6 +104,10 @@
     text-decoration: none;
     font-size: medium;
 }
+.Main-navbar a:hover{
+  border-bottom: 3px solid black;
+}
+
 .second-image img{
   width: 100%;
 }
@@ -138,6 +142,7 @@
  margin-top: 100px;
 
 }
+
 @media screen and (max-width:991px) {
   .dropdown-menu li{
     display:block;
